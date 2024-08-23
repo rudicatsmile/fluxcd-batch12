@@ -11,9 +11,11 @@ spec:
       labels:
         app: myapp-core
     spec:
+      imagePullSecret:
+        - name: redcred
       containers:
         - name: myapp-core
-          image: nginx:alpine
+          image: rudicatsmile2/simple-webapp:1
           resources:
             limits:
               memory: "64Mi"
