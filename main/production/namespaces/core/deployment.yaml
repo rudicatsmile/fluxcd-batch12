@@ -12,7 +12,7 @@ spec:
         app: myapp-core
     spec:
       imagePullSecret:
-        - name: redcred
+        - name: regcred
       containers:
         - name: myapp-core
           image: rudicatsmile2/simple-webapp:1
