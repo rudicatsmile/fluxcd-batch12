@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp-core
+  name: myapp-core2
 spec:
   selector:
     matchLabels:
-      app: myapp-core
+      app: myapp-core2
   template:
     metadata:
       labels:
-        app: myapp-core
+        app: myapp-core2
     spec:
       imagePullSecret:
         - name: regcred
       containers:
-        - name: myapp-core
+        - name: myapp-core2
           image: rudicatsmile2/simple-webapp:1
           resources:
             limits:
