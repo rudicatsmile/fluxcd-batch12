@@ -4,3 +4,4 @@ namespace: flux-system
 resources:
   - image-repository.yaml
   - ../../modules/dockersecret.yaml
+  - image-policy.yaml
