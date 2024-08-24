@@ -11,6 +11,8 @@ spec:
       labels:
         app: myapp
     spec:
+      # imagePullSecret:
+      #   - name: regcredapp
       containers:
         - name: myapp
           image: nginx:alpine
