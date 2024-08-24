@@ -5,3 +5,4 @@ resources:
   - image-repository.yaml
   - ../../modules/dockersecret.yaml
   - image-policy.yaml
+  - image-update.yaml
