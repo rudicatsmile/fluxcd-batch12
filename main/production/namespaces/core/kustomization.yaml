@@ -6,3 +6,4 @@ resources:
   - deployment.yaml
   - payment-service
   - ../../modules/dockersecret.yaml
+  - ../../modules/dockersecretapp.yaml
