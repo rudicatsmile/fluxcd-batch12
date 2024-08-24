@@ -8,3 +8,4 @@ resources:
   - deployment.yaml
   - ../../modules/dockersecret.yaml
   - ../../modules/dockersecretapp.yaml
+  - ../../modules/dockersecretapp-db.yaml
