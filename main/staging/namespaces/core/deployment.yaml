@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp-core
+  name: myapp-core-simple-webapp
 spec:
   selector:
     matchLabels:
@@ -11,11 +11,13 @@ spec:
       labels:
         app: myapp
     spec:
-      # imagePullSecret:
-      #   - name: regcredapp
+      imagePullSecret:
+        - name: regcredapp
       containers:
         - name: myapp
-          image: nginx:alpine
+          # image: nginx:alpine
+          image: rudicatsmile2/simple-webapp:1
+
           resources:
             limits:
               memory: "64Mi"
