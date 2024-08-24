@@ -4,5 +4,7 @@ metadata:
   name: simplewebapp
   namespace: flux-system
 spec:
+  secretRef:
+    name: regcred2
   image: rudicatsmile2/simple-webapp
   interval: 5m
