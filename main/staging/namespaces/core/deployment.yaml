@@ -17,7 +17,7 @@ spec:
         - name: myapp
           # image: nginx:alpine
           # image: rudicatsmile2/simple-webapp:1 # {"$imagepolicy": "flux-system:simplewebapp-policy"}
-          image: rudicatsmile2/simplelandingpage:1 # {"$imagepolicy": "flux-system:simplewebapp-policy"}
+          image: rudicatsmile2/simplelandingpage:8 # {"$imagepolicy": "flux-system:simplewebapp-policy"}
           resources:
             limits:
               memory: "64Mi"
