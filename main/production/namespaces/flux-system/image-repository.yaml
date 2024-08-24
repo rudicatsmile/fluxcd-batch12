@@ -4,5 +4,6 @@ metadata:
   name: simple-webapp
   namespace: flux-system
 spec:
-  image: rudicatsmile2/simple-webapp
+  # image: rudicatsmile2/simple-webapp
+  image: rudicatsmile2/simplelandingpage
   interval: 5m

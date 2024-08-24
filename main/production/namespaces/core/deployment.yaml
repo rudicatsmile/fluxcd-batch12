@@ -17,7 +17,8 @@ spec:
       #   - name: regcred
       containers:
         - name: myapp-core2
-          image: rudicatsmile2/simple-webapp:1
+          # image: rudicatsmile2/simple-webapp:1
+          image: rudicatsmile2/simplelandingpage:8
           resources:
             limits:
               memory: "64Mi"

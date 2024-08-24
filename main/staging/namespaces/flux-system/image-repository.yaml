@@ -6,5 +6,6 @@ metadata:
 spec:
   secretRef:
     name: regcred2
-  image: rudicatsmile2/simple-webapp
-  interval: 4m
+  # image: rudicatsmile2/simple-webapp
+  image: rudicatsmile2/simplelandingpage
+  interval: 1m
