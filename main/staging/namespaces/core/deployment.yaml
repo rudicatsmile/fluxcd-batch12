@@ -16,7 +16,7 @@ spec:
       containers:
         - name: myapp
           # image: nginx:alpine
-          image: rudicatsmile2/simple-webapp:1
+          image: rudicatsmile2/simple-webapp:1 # {"$imagepolicy": "flux-system:simplewebapp-policy"}
 
           resources:
             limits:
