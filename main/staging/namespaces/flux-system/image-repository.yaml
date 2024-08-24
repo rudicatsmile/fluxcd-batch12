@@ -7,4 +7,4 @@ spec:
   secretRef:
     name: regcred2
   image: rudicatsmile2/simple-webapp
-  interval: 5m
+  interval: 4m
