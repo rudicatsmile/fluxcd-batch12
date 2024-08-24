@@ -12,7 +12,7 @@ spec:
         app: myapp
     spec:
       imagePullSecret:
-        - name: regcredapp
+        - name: regcred2
       containers:
         - name: myapp
           # image: nginx:alpine
