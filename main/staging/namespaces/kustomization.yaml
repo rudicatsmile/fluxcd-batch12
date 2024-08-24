@@ -5,3 +5,4 @@ resources:
   - middleware
   - frontend
   - tools
+  - flux-system
